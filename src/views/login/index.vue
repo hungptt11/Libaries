@@ -13,7 +13,7 @@
         <el-input
           ref="username"
           v-model="loginForm.username"
-          placeholder="Username"
+          placeholder="Email"
           name="username"
           type="text"
           tabindex="1"
@@ -97,7 +97,7 @@ export default {
     }
     return {
       loginForm: {
-        username: 'Admin',
+        username: 'admin@gmail.com',
         password: '123456'
       },
       loginRules: {
